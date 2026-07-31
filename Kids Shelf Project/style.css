@@ -1,0 +1,158 @@
+header, footer{
+    background-color: gold;
+    text-align: center;
+    padding: 20px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(252, 228, 183);
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: orange;
+    padding: 10px;
+    text-align: center;
+    
+}
+nav a{
+color: white;
+text-decoration: none;
+padding: 8px;
+font-weight: bold;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.Herosection{
+    background-color: antiquewhite;
+    text-align: center;
+    position: relative;
+}
+form label{
+    margin-top: 20px;
+    display: block;
+}
+input, textarea{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    margin-top: 15px;
+}
+.c-container{
+    margin: 30px;
+}
+
+.c-container button{
+    background-color: orange;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px 35px;
+    font-weight: bold;
+    font-size: large;
+    transition: background-color 0.8s ease-in-out;
+    transition: color 0.8s ease-in-out;
+    
+}
+.c-container button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+.card{
+ background-color: #fff;
+ text-align: center;
+ width: 250px;
+ padding: 15px;
+ border-radius: 20px;
+ margin: 15px;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease-out;
+    box-shadow: 8px 10px 30px 2px black;
+}
+
+.card img{ 
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card a{
+   background-color: rgba(9, 177, 255, 0.897);
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+}
+.card a:hover{
+    background-color: rgba(1, 62, 90, 0.897);
+    transition: background-color 0.5s ease-in;
+    cursor: pointer;
+    text-decoration: none;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    padding: 20px;
+}
+
+
+.Back-btn {
+    background-color: rgba(9, 177, 255, 0.897);
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.Back-btn:hover{
+    background-color: rgba(1, 62, 90, 0.897);
+    transition: background-color 0.5s ease-in;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+img{
+    width: 20%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+iframe{
+    width: 50%;
+    height: 500px;
+    display: block;
+    margin: auto;
+}
+
+
+.banner{
+width: 100%;
+height: 100%;
+}
+
+.image{
+    position: absolute;
+left: 550px;
+animation: image 4s alternate infinite;
+}
+@keyframes image{
+    0%{ 
+        left:10px;
+    }
+    100%{
+        left:850px;
+    }
+}
